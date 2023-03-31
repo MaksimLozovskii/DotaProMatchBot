@@ -12,7 +12,7 @@ To run, simply create a new telegram bot using the "BotFather" on telegram via h
 - All Matches
 
 ## How to host
-You can easily host the bot to work even after your pc/server is turned off on https://www.pythonanywhere.com/
+You can easily host the bot on https://www.pythonanywhere.com/
 Simply create an account and launch the bot script
 
 ## TO-DO
