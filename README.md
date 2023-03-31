@@ -12,4 +12,4 @@ To run, simply create a new telegram bot using the "BotFather" on telegram via h
 - All Matches
 
 ## TO-DO
-- Fix the bug with matches shows twice
+- Fix the bug with matches shown twice
