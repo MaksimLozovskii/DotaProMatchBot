@@ -1,8 +1,9 @@
-import requests
+import requests, telebot, os
 from bs4 import BeautifulSoup
-import telebot
+from dotenv import load_dotenv
+load_dotenv()
 
-bot = telebot.TeleBot("Your-telegram-bot-key")
+bot = telebot.TeleBot(os.getenv("BOT_KEY"))
 
 @bot.message_handler(commands=['start'])
 def send_start(message):

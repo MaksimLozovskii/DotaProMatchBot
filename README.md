@@ -17,4 +17,3 @@ Simply create an account and launch the bot script
 
 ## TO-DO
 - Fix the bug with matches shown twice
-- Add .env support
