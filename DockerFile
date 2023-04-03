@@ -1,0 +1,17 @@
+FROM ubuntu:latest
+
+RUN apt-get update && \
+    apt-get install -y python3 python3-pip
+
+WORKDIR /app
+
+COPY requirements.txt /app/requirements.txt
+
+RUN pip3 install virtualenv && \
+    virtualenv -p python3 /env && \
+    . /env/bin/activate && \
+    pip3 install -r /app/requirements.txt
+
+COPY . /app
+
+CMD ["python3", "getMatch.py"]

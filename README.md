@@ -17,3 +17,4 @@ Simply create an account and launch the bot script
 
 ## TO-DO
 - Fix the bug with matches shown twice
+- Restructure the code to be more scalable
