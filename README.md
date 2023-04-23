@@ -6,7 +6,7 @@ Add bot - https://t.me/dotaGamesBot
 ---
 To run, simply create a new telegram bot using the "BotFather" on telegram via https://t.me/BotFather and paste the key into the getMatch.py file
 
-### Currently Supports:
+### Currently Supports filtering by:
 
 - Shopify Rebelion Matches
 - Tundra Matches
